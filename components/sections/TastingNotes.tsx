@@ -15,8 +15,6 @@ const sectionEmbers: Ember[] = [
   { x: "60%", duration: 25, delay: 5, mobileHidden: true },
 ];
 
-const hatch =
-  "repeating-linear-gradient(135deg, rgba(184,146,76,0.08) 0 1px, transparent 1px 12px)";
 
 const hover = { duration: durations.micro, ease: easeExpoOut };
 
@@ -140,13 +138,13 @@ function StillLifeCard() {
         className="absolute left-4 top-4 z-[2] font-mono text-[10px] uppercase tracking-[0.3em] text-brass"
         style={{ textShadow: "0 1px 6px rgba(0,0,0,0.85)" }}
       >
-        // Journal &amp; Glass
+        {"// Journal & Glass"}
       </span>
       <span
         className="absolute bottom-4 right-4 z-[2] font-mono text-[10px] uppercase tracking-[0.3em] text-brass"
         style={{ textShadow: "0 1px 6px rgba(0,0,0,0.85)" }}
       >
-        // The Pour
+        {"// The Pour"}
       </span>
     </motion.div>
   );

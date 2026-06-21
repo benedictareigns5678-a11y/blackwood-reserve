@@ -145,7 +145,7 @@ function ImageCard() {
         className="absolute left-4 top-4 z-[2] font-mono text-[12px] uppercase tracking-[0.3em] text-brass"
         style={{ textShadow: "0 1px 6px rgba(0,0,0,0.85)" }}
       >
-        // The Cask
+        {"// The Cask"}
       </span>
     </motion.div>
   );

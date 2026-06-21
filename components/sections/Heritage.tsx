@@ -17,8 +17,6 @@ const sectionEmbers: Ember[] = [
   { x: "30%", duration: 24, delay: 4, mobileHidden: true },
 ];
 
-const hatch =
-  "repeating-linear-gradient(135deg, rgba(184,146,76,0.08) 0 1px, transparent 1px 12px)";
 
 const hover = { duration: durations.micro, ease: easeExpoOut };
 
@@ -134,13 +132,13 @@ function BottleCard() {
         className="object-cover"
       />
       <span className="absolute left-4 top-4 z-[2] font-mono text-[10px] uppercase tracking-[0.3em] text-brass/90" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.85)" }}>
-        // Blackwood · No. 1887
+        {"// Blackwood · No. 1887"}
       </span>
       <span className="absolute left-4 top-9 z-[2] font-mono text-[10px] uppercase tracking-[0.3em] text-brass/60" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.85)" }}>
-        // Estate Bottle
+        {"// Estate Bottle"}
       </span>
       <span className="absolute bottom-4 right-4 z-[2] font-mono text-[10px] uppercase tracking-[0.3em] text-offwhite/70" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.85)" }}>
-        // No. 1887
+        {"// No. 1887"}
       </span>
     </motion.a>
   );

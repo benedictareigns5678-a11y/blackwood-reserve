@@ -16,10 +16,6 @@ const sectionEmbers: Ember[] = [
   { x: "46%", duration: 23, delay: 4, mobileHidden: true },
 ];
 
-const hatch =
-  "repeating-linear-gradient(135deg, rgba(184,146,76,0.08) 0 1px, transparent 1px 12px)";
-
-const hover = { duration: durations.micro, ease: easeExpoOut };
 
 type Testimonial = {
   quote: string;
@@ -110,7 +106,7 @@ function CenterCard() {
         className="absolute bottom-4 left-4 z-[2] font-mono text-[10px] uppercase tracking-[0.3em] text-brass"
         style={{ textShadow: "0 1px 6px rgba(0,0,0,0.85)" }}
       >
-        // The Pour · Amber Light Study
+        {"// The Pour · Amber Light Study"}
       </span>
     </motion.div>
   );

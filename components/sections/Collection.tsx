@@ -211,7 +211,7 @@ function ReleaseCard({ r }: { r: Release }) {
           />
         )}
         <span className="relative z-[2] m-4 font-mono text-[10px] uppercase tracking-[0.3em] text-brass/60">
-          // Blackwood {r.no}
+          {`// Blackwood ${r.no}`}
         </span>
       </div>
 
